@@ -27,7 +27,7 @@
 			</method-selector>
 		</method-selectors> 
 		 <classes>
-		    <class name="com.testathon.tests.VerifyMoviePage"/>
+		     <class name="com.testathon.tests.AddNewMovie"/>
     	</classes>
 		<!-- <packages> 
 			All package names from new hierarchy shall be included here 
