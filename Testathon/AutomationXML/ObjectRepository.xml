@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Modules>
 	
-<Controls>
+<HomePage>
 	<ElementProperty NameOfElement="ControlsImagesLevel1" Type="cssSelector">.shade-lists li span</ElementProperty>
-	<ElementProperty NameOfElement="ControlsImagesLevel2" Type="cssSelector">.shade-lists .tile-label-text</ElementProperty>
-	<ElementProperty NameOfElement="ControlsShowMoreLevel2" Type="cssSelector">#see-more</ElementProperty>
-	<ElementProperty NameOfElement="BackLevel2" Type="cssSelector">.breadcrumb-area.sub-product-back a:nth-child(3)</ElementProperty>
-	<ElementProperty NameOfElement="AllControl" Type="cssSelector">.breadcrumb-area.sub-product-back a:nth-child(2)</ElementProperty>
-	<ElementProperty NameOfElement="AcceptCookies" Type="cssSelector">[title="Accept Cookies"]</ElementProperty>
-	<ElementProperty NameOfElement="FilterHeaderLevel2" Type="cssSelector">.filter-desktop</ElementProperty>
 	
-	<ElementProperty NameOfElement="PageNotFound" Type="cssSelector">#DeltaPlaceHolderPageTitleInTitleArea</ElementProperty>
+	<ElementProperty NameOfElement="Header" Type="cssSelector">.jumbotron .display-3</ElementProperty>
+	<ElementProperty NameOfElement="SearchTextbox" Type="cssSelector">[type="search"]</ElementProperty>
+	<ElementProperty NameOfElement="ShowAvailableMovieCheckbox" Type="cssSelector">[type="checkbox"]</ElementProperty>
+	<ElementProperty NameOfElement="ViewMoreLinks" Type="cssSelector">.mycard href</ElementProperty>
+	<ElementProperty NameOfElement="MoviesName" Type="cssSelector">#listwrapper div h2:nth-child(1)</ElementProperty>
 	
-</Controls>
+</HomePage>
 
+<MoviePage>
+    <ElementProperty NameOfElement="movieHeader" Type="cssSelector">.detailInfos h1</ElementProperty>
+    
+</MoviePage>
+
+<CommonPage>
+    <ElementProperty NameOfElement="ProfileLink" Type="cssSelector">.nav-item:nth-child(1) a</ElementProperty>
+    <ElementProperty NameOfElement="LoginLink" Type="cssSelector">#navLink[name="Login"]</ElementProperty>
+    
+    <ElementProperty NameOfElement="UserName" Type="cssSelector">[name="password"]</ElementProperty>
+    <ElementProperty NameOfElement="Password" Type="cssSelector">[name="username"]</ElementProperty>
+    <ElementProperty NameOfElement="Login" Type="cssSelector">[name="Cancel"]</ElementProperty>
+    
+    
+    
+</CommonPage>
 </Modules>	
