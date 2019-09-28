@@ -14,19 +14,4 @@
 	
 </Controls>
 
-<ImageCompare>
-	<ElementProperty NameOfElement="ShadesDropdown" Type="cssSelector">#selectedFinishValue</ElementProperty>
-	<ElementProperty NameOfElement="HeaderImage" Type="cssSelector">#productHeaderImage</ElementProperty>
-	<ElementProperty NameOfElement="HeaderTitle" Type="cssSelector">.sub-product-text-area</ElementProperty>
-	
-	<ElementProperty NameOfElement="TabAccordion" Type="cssSelector">#mainTabAccordion</ElementProperty>
-	<ElementProperty NameOfElement="DropdownsInTabAccordion" Type="cssSelector">.main-ul .tab-query</ElementProperty>
-	<ElementProperty NameOfElement="DocumentNames" Type="cssSelector">.doc-name.child</ElementProperty>
-	<ElementProperty NameOfElement="LanguageDownloads" Type="cssSelector">.doc-content .links .lang-row</ElementProperty>
-	<ElementProperty NameOfElement="NoDocumentAvailable" Type="cssSelector">.no-content-label</ElementProperty>
-	
-	
-	<ElementProperty NameOfElement="AcceptCookies" Type="cssSelector">[title="Accept Cookies"]</ElementProperty>
-
-</ImageCompare>
 </Modules>	
