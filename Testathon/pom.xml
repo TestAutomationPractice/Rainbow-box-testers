@@ -501,7 +501,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<!-- <suiteXmlFile xmlns="">testngHierarchical.xml</suiteXmlFile> -->
+						<suiteXmlFile xmlns="">testngHierarchical.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
         </plugin>

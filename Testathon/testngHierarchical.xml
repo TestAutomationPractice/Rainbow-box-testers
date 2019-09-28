@@ -27,7 +27,7 @@
 			</method-selector>
 		</method-selectors> 
 		 <classes>
-		    <class name="com.testathon.tests.VerifyMoviePage"/>
+		    <class name="com.testathon.tests.VerifyAddNewMovie"/>
 		    <class name="com.testathon.tests.VerifyAddMovies"/>
     	</classes>
 		<!-- <packages> 
