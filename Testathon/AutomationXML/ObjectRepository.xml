@@ -24,8 +24,13 @@
     <ElementProperty NameOfElement="UserName" Type="cssSelector">[name="password"]</ElementProperty>
     <ElementProperty NameOfElement="Password" Type="cssSelector">[name="username"]</ElementProperty>
     <ElementProperty NameOfElement="Login" Type="cssSelector">[name="Cancel"]</ElementProperty>
-    
-    
-    
+    <ElementProperty NameOfElement="Add_Movie" Type="xpath">//a[contains(text(),'add movie')]</ElementProperty>
+    <ElementProperty NameOfElement="Enter_Title" Type="cssSelector">#main > div > div:nth-child(1) > div > input</ElementProperty>
+    <ElementProperty NameOfElement="Enter_Director" Type="cssSelector">#main > div > div:nth-child(2) > div > input</ElementProperty>
+    <ElementProperty NameOfElement="Enter_Description" Type="cssSelector">#main > div > div:nth-child(3) > div > textarea</ElementProperty>
+    <ElementProperty NameOfElement="Select_Category" Type="cssSelector"> #main > div > div:nth-child(4) > div > select > option:nth-child(1)</ElementProperty>
+ 	<ElementProperty NameOfElement="Enter_URL" Type="cssSelector"> #main > div > div:nth-child(5) > div > input</ElementProperty>
+ 	<ElementProperty NameOfElement="Select_Rating" Type="cssSelector">#main > div > div:nth-child(6) > div > svg:nth-child(2) > path</ElementProperty>
+ 	<ElementProperty NameOfElement="Select_Save_Button" Type="cssSelector"> #main > div > div:nth-child(7) > div > div > button.btn.btn-success</ElementProperty>
 </CommonPage>
 </Modules>	
