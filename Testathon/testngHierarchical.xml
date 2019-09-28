@@ -27,7 +27,7 @@
 			</method-selector>
 		</method-selectors> 
 		 <classes>
-		    <class name="com.web.WEB.CameraClick2"/>
+		    <class name="com.testathon.tests.VerifyMoviePage"/>
     	</classes>
 		<!-- <packages> 
 			All package names from new hierarchy shall be included here 

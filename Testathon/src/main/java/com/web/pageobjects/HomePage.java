@@ -17,10 +17,10 @@ public class HomePage {
 	public static void clickViewMoreByMovieName(String name) {
 
 		List<WebElement> MoviesName = instance.getDriver().findElements(MKeywords.findElement(pageName, "MoviesName"));
-		int i=0;
+		int i=1;
 		for(WebElement movieName: MoviesName) {
 			if(movieName.getText().replaceAll(" ", "").trim().equals(name.replaceAll(" ", "").trim())) {
-				instance.getDriver().findElements(MKeywords.findElement(pageName, "ViewMoreLinks")).get(i).click();;
+				instance.getDriver().findElements(MKeywords.findElement(pageName, "ViewMoreLinks")).get(i).click();
 				break;
 			}
 			i++;

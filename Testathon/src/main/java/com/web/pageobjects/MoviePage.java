@@ -12,7 +12,7 @@ public class MoviePage {
 	public static boolean verifyMovieName(String name) {
 		boolean value=false;
 		HomePage.clickViewMoreByMovieName(name);
-		String movieHeader = instance.getDriver().findElement(MKeywords.findElement(pageName, "MoviesName")).getText();
+		String movieHeader = instance.getDriver().findElement(MKeywords.findElement(pageName, "movieHeader")).getText();
 		
 		if(movieHeader.replaceAll(" ", "").trim().equals(name.replaceAll(" ", "").trim())) {
 			value=true;
